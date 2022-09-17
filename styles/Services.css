@@ -8,11 +8,20 @@
     font-weight: 600;
     color: #C23272;
     font-size: 28px;
-    margin-top: 10px;
 }
 .ServiceDescription{
     font-family: "Roboto Condensed";
     font-weight: 600;
     font-size: 20px;
-    text-align: justify!important;
+}
+
+@media screen and (max-width: 480px) {
+
+
+    .serviceImg{
+        width: 100%!important;
+        height: 200px!important;
+        border: 2px saddlebrown solid;
+    }
+
 }
