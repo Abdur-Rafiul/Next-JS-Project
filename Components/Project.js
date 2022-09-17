@@ -17,13 +17,13 @@ class Project extends Component {
     render() {
         return (
             <Fragment>
-                <Container fluid={true} className="project">
-                    <Container>
+                <Container fluid={true} >
+                    <Container className="project">
 
                         <Row>
 
                             <Col lg={4} md={6} sm={12}>
-                                <div className="serviceCard mt-3" data-aos="fade-down-right">
+                                <div className="serviceCard mt-3" data-aos="flip-right">
                                     <img className="ProjectImg" src="/Photo/diu.png"/>
                                     <h2 className="ServiceName mt-3">Online Hall Management System For Diu Students</h2>
                                     <p className="ServiceDescription mt-2 text-justify">
@@ -33,7 +33,7 @@ class Project extends Component {
                             </Col>
 
                             <Col lg={4} md={6} sm={12}>
-                                <div className="serviceCard text-justify mt-3" data-aos="fade-down">
+                                <div className="serviceCard text-justify mt-3" data-aos="flip-top">
                                     <img className="ProjectImg" src="/Photo/per.png"/>
                                     <h2 className="ServiceName mt-3">Responsive Portfolio Website</h2>
                                     <p className="ServiceDescription mt-2">
@@ -44,7 +44,7 @@ class Project extends Component {
                             </Col>
 
                             <Col lg={4} md={6} sm={12}>
-                                <div className="serviceCard text-justify mt-3" data-aos="fade-down-left">
+                                <div className="serviceCard text-justify mt-3" data-aos="flip-left">
                                     <img className="ProjectImg" src="/Photo/re2.png"/>
                                     <h2 className="ServiceName mt-3">Responsive Learning Website</h2>
                                     <p className="ServiceDescription mt-4">
