@@ -23,7 +23,7 @@ class MySkillList extends Component {
                         </ResponsiveContainer>
                     </Col>
                     <Col sm={12} md={12} lg={6}>
-                         <p className="skillDescription ms-5 mt-5 ms-sm-0 ms-md-0">
+                         <p className="skillDescription ms-5 mt-5 ">
                              I can create any website and develop the website according to the client's requirements.
                              I am a laravel developer. I am frontend and I have good skills. I am working on some project Management System, Ecommerce site. I can build websites using React js and NextJs
                          </p>

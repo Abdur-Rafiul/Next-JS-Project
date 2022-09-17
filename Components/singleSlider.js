@@ -52,41 +52,41 @@ class SingleSlider extends Component {
 
               <ProgressBar className="mt-3 mb-3 progress-style">
                 <ProgressBar
-                  label={`${"C"}++`}
+                  label={`${"C"} `}
                   striped
                   variant="dark"
                   now={15}
                   key={3}
                 />
                 <ProgressBar
-                  label={`${"C++"}++`}
+                  label={`${"C++"} `}
                   variant="dark"
                   now={15}
                   key={3}
                 />
                 <ProgressBar
-                  label={`${"Php"}++`}
+                  label={`${"Php"} `}
                   striped
                   variant="danger"
                   now={10}
                   key={3}
                 />
                 <ProgressBar
-                  label={`${"JavaScript"}++`}
+                  label={`${"JavaScript"} `}
                   striped
                   variant="primary"
                   now={20}
                   key={3}
                 />
                 <ProgressBar
-                  label={`${"Laravel"}`}
+                  label={`${"Laravel"} `}
                   striped
                   variant="dark"
                   now={15}
                   key={3}
                 />
                 <ProgressBar
-                  label={`${"React Js"}++`}
+                  label={`${"React Js"} `}
                   striped
                   variant="danger"
                   now={25}

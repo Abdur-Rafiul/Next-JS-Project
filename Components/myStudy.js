@@ -1,7 +1,19 @@
 import React, {Component} from 'react';
 import {Button, Card, Col, Container, Row} from "react-bootstrap";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 class MyStudy extends Component {
+
+    componentDidMount() {
+        // or simply just AOS.init();
+        AOS.init({
+            // initialise with other settings
+            duration : 2000,
+            offset : 100
+        });
+    }
     render() {
         return (
             <Container fluid={true} className="text-center educationBackground">
@@ -10,8 +22,9 @@ class MyStudy extends Component {
                     <h2 className="studyMainTitle">Education</h2>
                     <Col lg={4} md={6} sm={12}>
 
-                        <Card className="studyCard">
-                            <h3 className="title">SSC</h3>
+                        <Card className="studyCard"  data-aos="fade-up"
+                              data-aos-offset="200">
+                            <h3 className="title">Madrasha</h3>
                             <Card.Img width="100%" variant="top" src="/Photo/madrash.jpg" />
                             <Card.Body>
                                 <Card.Title><span className="studyTitle">Miapur Dakhil Madrasha</span></Card.Title>
@@ -27,7 +40,7 @@ class MyStudy extends Component {
                     </Col>
 
                     <Col lg={4} md={6} sm={12}>
-                        <Card className="studyCard">
+                        <Card className="studyCard" data-aos="fade-down">
                             <h3 className="title">HSC</h3>
                             <Card.Img width="100%" variant="top" src="/Photo/college.jpg" />
                             <Card.Body>
@@ -43,7 +56,7 @@ class MyStudy extends Component {
                     </Col>
 
                     <Col lg={4} md={6} sm={12}>
-                        <Card className="studyCard">
+                        <Card className="studyCard" data-aos="fade-up">
                             <h3 className="title">University</h3>
                             <Card.Img width="100%" variant="top" src="/Photo/daffodil.jpg" />
                             <Card.Body>
@@ -60,6 +73,7 @@ class MyStudy extends Component {
                     </Col>
                 </Row>
                 </Container>
+
             </Container>
         );
     }

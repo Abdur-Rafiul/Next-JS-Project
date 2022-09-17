@@ -53,38 +53,75 @@
     font-size: 60px;
     font-weight: 600;
 }
-@media screen and (max-width: 480px) {
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .playBtnHeading{
+        text-align: center;
+        margin-right: 0px;
+    }
+
     .slideText{
 
         font-family: "Rufina",serif;
-        font-size: 10px;
+        font-size: 50px!important;
         color: #C23272!important;
         text-align: center;
-        box-sizing: border-box;
-        height: 200px;
 
 
     }
     .diuText{
-        font-size: 15px;
-        
+        font-size: 25px;
+        margin-left: -10px!important;
         text-align: center;
     }
     .progress-style{
-        margin-right: 50px!important;
-        margin-left: 50px!important;
+        margin-right: 100px!important;
+       margin-left: 80px!important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .slideText{
+
+        font-family: "Rufina",serif;
+        font-size: 50px!important;
+        color: #C23272!important;
+        text-align: center;
+
+
+    }
+
+    .diuText{
+        font-size: 25px;
+
+        text-align: center;
     }
     .img-slider{
-        width: 100%!important;
-        height: 300px!important;
-       
+        display: block!important;
+        margin-left: auto!important;
+        margin-right: auto!important;
+
+    }
+    .progress-style{
+        margin-right: 100px!important;
+        margin-left: 100px!important;
+    }
+    .social-icon{
+
+        font-size: 20px!important;
+        text-align: center;
     }
     .playBtnHeading{
         text-align: center;
         margin-right: 0px;
     }
 }
-
 @media screen and (max-width: 768px) {
     .slideText{
 
@@ -98,11 +135,11 @@
 
     .diuText{
         font-size: 25px;
-       
+
         text-align: center;
     }
     .progress-style{
-     position: relative;
+        position: relative;
         width: 100%!important;
 
         right: 90px!important;
@@ -119,47 +156,32 @@
         margin-right: 0px;
     }
 }
-
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 480px) {
     .slideText{
 
         font-family: "Rufina",serif;
-        font-size: 50px;
+        font-size: 30px!important;
         color: #C23272!important;
         text-align: center;
+        box-sizing: border-box;
+
 
 
     }
-
     .diuText{
-        font-size: 25px;
-      
+        font-size: 15px;
+
         text-align: center;
-    }
-    .img-slider{
-        display: block!important;
-        margin-left: auto!important;
-        margin-right: auto!important;
-       
     }
     .progress-style{
-        margin-right: 100px!important;
-        margin-left: 100px!important;
+      width: 100%!important;
+       margin-left: 90px!important;
     }
-    .social-icon{
+    .img-slider{
+        width: 100%!important;
+        height: 300px!important;
 
-       font-size: 20px!important;
-        text-align: center;
     }
-    .playBtnHeading{
-        text-align: center;
-        margin-right: 0px;
-    }
-}
-
-
-@media screen and (max-width: 1200px) {
-
     .playBtnHeading{
         text-align: center;
         margin-right: 0px;
