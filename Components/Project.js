@@ -23,7 +23,7 @@ class Project extends Component {
                         <Row>
 
                             <Col lg={4} md={6} sm={12}>
-                                <div className="serviceCard " data-aos="fade-down-right">
+                                <div className="serviceCard mt-3" data-aos="fade-down-right">
                                     <img className="ProjectImg" src="/Photo/diu.png"/>
                                     <h2 className="ServiceName mt-3">Online Hall Management System For Diu Students</h2>
                                     <p className="ServiceDescription mt-2 text-justify">
