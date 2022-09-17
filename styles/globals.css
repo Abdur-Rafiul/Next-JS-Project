@@ -1,26 +1,20 @@
-html,
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('Menu.css');
+@import url('singleSlider.css');
+@import url('fontawesome.css');
+@import url('studu.css');
+@import url('mySkill.css');
+@import url('summary.css');
+@import url('clientReview.css');
+@import url('Footer.css');
+@import url('TopPage.css');
+@import url('About.css');
+@import url('Services.css');
+@import url('ProjectImg.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+    box-sizing: border-box;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+    font-family: 'Roboto Condensed', sans-serif;
 }

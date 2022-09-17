@@ -1,0 +1,167 @@
+.singleSlider{
+    background-image: linear-gradient(to bottom, #fffaf9 0%, #C23272 100%);
+    height: 90%!important;
+    margin-top: 4.5rem;
+
+}
+.single-container{
+    margin-top: 80px!important;
+
+
+}
+.img-slider{
+    width: 500px!important;
+    height: 600px!important;
+    
+   
+
+}
+.progress-style{
+    margin-right: 200px!important;
+}
+
+.slideText{
+    font-family: "Rufina",serif;
+    font-size: 70px;
+    color: #000000!important;
+
+}
+
+.diuText{
+    font-size: 25px;
+    color: #000000!important;
+   
+}
+
+.playBtn{
+    font-size: 100px;
+    color: #ffffff;
+    text-align: center!important;
+    background-color: rgba(0, 68, 255, 0.864);
+    border-radius: 60px;
+}
+.playBtnHeading{
+    text-align: center;
+    margin-right: 160px;
+}
+
+.modalTitle{
+    color: #C23272!important;
+    margin-top: 1rem!important;
+    margin-bottom: 5rem;
+    font-family: "Roboto Condensed";
+    font-size: 60px;
+    font-weight: 600;
+}
+@media screen and (max-width: 480px) {
+    .slideText{
+
+        font-family: "Rufina",serif;
+        font-size: 10px;
+        color: #C23272!important;
+        text-align: center;
+        box-sizing: border-box;
+        height: 200px;
+
+
+    }
+    .diuText{
+        font-size: 15px;
+        
+        text-align: center;
+    }
+    .progress-style{
+        margin-right: 50px!important;
+        margin-left: 50px!important;
+    }
+    .img-slider{
+        width: 100%!important;
+        height: 300px!important;
+       
+    }
+    .playBtnHeading{
+        text-align: center;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slideText{
+
+        font-family: "Rufina",serif;
+        font-size: 50px;
+        color: #C23272!important;
+        text-align: center;
+
+
+    }
+
+    .diuText{
+        font-size: 25px;
+       
+        text-align: center;
+    }
+    .progress-style{
+     position: relative;
+        width: 100%!important;
+
+        right: 90px!important;
+    }
+
+    .social-icon i{
+
+
+        text-align: center;
+        font-size: 40px!important;
+    }
+    .playBtnHeading{
+        text-align: center;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .slideText{
+
+        font-family: "Rufina",serif;
+        font-size: 50px;
+        color: #C23272!important;
+        text-align: center;
+
+
+    }
+
+    .diuText{
+        font-size: 25px;
+      
+        text-align: center;
+    }
+    .img-slider{
+        display: block!important;
+        margin-left: auto!important;
+        margin-right: auto!important;
+       
+    }
+    .progress-style{
+        margin-right: 100px!important;
+        margin-left: 100px!important;
+    }
+    .social-icon{
+
+       font-size: 20px!important;
+        text-align: center;
+    }
+    .playBtnHeading{
+        text-align: center;
+        margin-right: 0px;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .playBtnHeading{
+        text-align: center;
+        margin-right: 0px;
+    }
+}

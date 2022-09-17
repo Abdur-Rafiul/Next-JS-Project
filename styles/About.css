@@ -1,0 +1,25 @@
+.About{
+    background-image: url("http://localhost:3000/Photo/summary.png");
+    width: 100%;
+    min-height: 500px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px!important;
+
+}
+
+
+.AboutName{
+    font-family: "Roboto Condensed";
+    font-weight: 600;
+    color: #C23272;
+    font-size: 28px;
+}
+
+.AboutDescription{
+    font-family: "Roboto Condensed";
+    font-weight: 600;
+    font-size: 20px;
+}

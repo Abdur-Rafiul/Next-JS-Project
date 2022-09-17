@@ -1,0 +1,43 @@
+.summaryFixedBanner{
+    background-image: url("http://localhost:3000/Photo/summary.png");
+    width: 100%;
+    min-height: 300px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.countNumber{
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    color: #C23272;
+    font-size: 48px;
+
+}
+.countTitle{
+    font-family: "Roboto Condensed";
+    font-weight: 600;
+    color: #C23272;
+    font-size: 22px;
+}
+.countSection{
+    margin-top: 5rem!important;
+}
+.cardTitle{
+    font-family: "Roboto Condensed";
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+}
+.cardSubTitle{
+    font-family: "Roboto Condensed";
+    color: black;
+    font-size: 14px;
+    font-weight: 4000;
+
+}
+.work{
+    text-align: justify;
+    margin-top: 3rem!important;
+
+}

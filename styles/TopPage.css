@@ -1,0 +1,39 @@
+.topFixedPage1{
+    background-image: url("http://localhost:3000/Photo/sun.jpg")!important;
+    min-height: 300px!important;
+
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat!important;
+    background-size: cover;
+
+
+}
+
+.topPageOverly{
+    position: absolute;
+    min-height: 280px;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+
+}
+
+.topPageContent{
+    margin-top: 10rem;
+}
+.topPageTitle{
+  font-family: "Roboto Condensed";
+    font-weight: 700;
+    color: white;
+
+}
+
+
+
+.form-control:focus {
+    border-radius: 2px !important;
+    border-color: #0a58ca !important;
+    background: rgb(255, 255, 255) !important;
+}
+
+

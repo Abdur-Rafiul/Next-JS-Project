@@ -1,0 +1,74 @@
+
+.navBar{
+
+    color: #C23272!important;
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    font-size: 45px!important;
+}
+.navBarWithOutScroll{
+    background-color: #f8f9fa!important;
+    color: #C23272!important;
+    font-family: "Roboto Condensed";
+
+}
+.navBarScroll{
+    background-color: #f3f2f0!important;
+    /*background:linear-gradient(90deg,#7530a6,#333295);;*/
+    color:#e3e4e8!important;
+    font-family: "Roboto Condensed";
+
+    font-size: 45px!important;
+    box-shadow: 5px 0px 8px 0 rgb(255, 35, 35);
+}
+
+.link1{
+
+    color: #C23272!important;
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    font-size: 35px!important;
+    margin-left: 3px!important;
+}
+
+/*320px—480px: Mobile devices*/
+/*481px—768px: iPads, Tablets*/
+/*769px—1024px: Small screens, laptops*/
+/*1025px—1200px: Desktops, large screens*/
+/*1201px and more— Extra large screens, TV*/
+
+@media screen and (max-width: 480px) {
+    .link1{
+
+        color: red!important;
+        text-align: center;
+        background-color: #e3e4e8 !important;
+        margin-top: 5px;
+
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .link1{
+
+        color: red!important;
+        text-align: center;
+        background-color: #e3e4e8 !important;
+        margin-top: 5px;
+
+
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .link1{
+
+        color: red!important;
+        text-align: center;
+        background-color: #e3e4e8 !important;
+        margin-top: 5px;
+
+
+    }
+}

@@ -1,0 +1,42 @@
+.studyCard{
+    height: 95%!important;
+   margin: 5px 5px 5px 5px;
+    height: 30rem;
+    padding: 60px 30px 60px 30px;
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+}
+.studyCard:hover{
+
+    box-shadow: 0 0 8px 0 rgb(206, 108, 151);
+}
+.studyMainTitle{
+    color: #C23272!important;
+    margin-top: 5rem!important;
+    margin-bottom: 5rem;
+    font-family: "Roboto Condensed";
+    font-size: 60px;
+    font-weight: 600;
+}
+.studyTitle{
+    font-size: 25px;
+    font-weight: 600;
+}
+.studyDescription{
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+    font-weight: 400;
+    color: #7F7E7E;
+}
+.title{
+    color: #C23272;
+    font-family: "Roboto Condensed";
+    font-size: 50px;
+    font-weight: 400;
+}
+.educationBackground{
+    background-image: url("http://localhost:3000/Photo/backgroundCard.png");
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
