@@ -8,11 +8,13 @@
     font-weight: 600;
     color: #C23272;
     font-size: 28px;
+    margin-top: 10px!important;
 }
 .ServiceDescription{
     font-family: "Roboto Condensed";
     font-weight: 600;
     font-size: 20px;
+
 }
 
 .service{
@@ -23,7 +25,8 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 50px!important;
+
+    padding: 100px!important;
 
 }
 
@@ -38,4 +41,12 @@
         border: 2px saddlebrown solid;
     }
 
+
+    .service{
+
+
+        padding: 30px!important;
+
+
+    }
 }

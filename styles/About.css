@@ -38,7 +38,7 @@
         font-family: "Roboto Condensed";
         font-weight: 600;
         font-size: 20px;
-        text-align: center;
+        text-align: left;
     }
 
     .About{
@@ -46,7 +46,7 @@
         width: 100%!important;
         min-height: 500px;
 
-        padding: 10px!important;
-
+        text-align: justify;
+        padding: 1px!important;
     }
 }
