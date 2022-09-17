@@ -4,3 +4,13 @@
     font-family: "Roboto Condensed";
     margin-right: 25px!important;
 }
+
+@media screen and (max-width: 480px) {
+
+    .skillDescription {
+        font-size: 20px !important;
+        padding: 0 !important;
+        margin-right: 30px;
+
+    }
+}
