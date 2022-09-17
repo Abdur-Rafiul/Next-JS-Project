@@ -33,7 +33,7 @@ class Project extends Component {
                             </Col>
 
                             <Col lg={4} md={6} sm={12}>
-                                <div className="serviceCard text-justify mt-3" data-aos="flip-top">
+                                <div className="serviceCard text-justify mt-3" data-aos="flip-up">
                                     <img className="ProjectImg" src="/Photo/per.png"/>
                                     <h2 className="ServiceName mt-3">Responsive Portfolio Website</h2>
                                     <p className="ServiceDescription mt-2">
