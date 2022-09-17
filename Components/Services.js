@@ -19,7 +19,7 @@ class Services extends Component {
     render() {
         return (
             <Fragment>
-                <Container fluid={true} className="text-center About">
+                <Container fluid={true} className="text-justify service">
                     <Container>
 
                     <Row>
