@@ -1,3 +1,4 @@
+import ScrollTopBtn from "../Components/ScrollTopBtn";
 
 export async function getStaticProps() {
 
@@ -94,6 +95,7 @@ class Index extends Component {
             <MyStudy />
             <Summary />
             <ClientReview />
+
             <Footer />
 
         </div>
