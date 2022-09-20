@@ -2,11 +2,12 @@
     width: 100%!important;
     height: 700px!important;
     border: 2px saddlebrown solid;
+
 }
 
 .project{
     background-image: url("http://localhost:3000/Photo/summary.png");
-    width: 100%!important;
+
     min-height: 500px;
     background-position: center;
     background-attachment: fixed;
@@ -15,7 +16,11 @@
     margin-top: 50px!important;
     box-sizing: border-box!important;
 
+   
+
+
 }
+
 
 
 @media screen and (max-width: 480px) {

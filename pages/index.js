@@ -78,6 +78,9 @@ import MySkillList from "../Components/mySkillList";
 import Summary from "../Components/Summary";
 import ClientReview from "../Components/clientReview";
 import Footer from "../Components/Footer";
+import Project from "../Components/homePageProject";
+import {Container} from "react-bootstrap";
+
 
 class Index extends Component {
   render() {
@@ -87,12 +90,11 @@ class Index extends Component {
             <SingleSlider />
 
 
-            {/*{this.props.d}*/}
-            {/*{this.props.dataTable[0].fullname}*/}
             <MySkillList
                 dataCharts={this.props.dataCharts}
             />
             <MyStudy />
+            <Project/>
             <Summary />
             <ClientReview />
 
