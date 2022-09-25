@@ -5,6 +5,8 @@ import 'aos/dist/aos.css';
 
 class Project extends Component {
 
+
+
     componentDidMount() {
         // or simply just AOS.init();
         AOS.init({
@@ -19,6 +21,7 @@ class Project extends Component {
             <Fragment>
                 <Container fluid={true} >
                     <Container className="project">
+                   
 
                         <Row>
 

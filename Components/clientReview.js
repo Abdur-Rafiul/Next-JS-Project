@@ -47,14 +47,14 @@ class ClientReview extends Component {
 
         return (
             <Fragment>
-                <Container fluid={true} className="clientBackground">
+                <Container fluid={true} className="clientBackground pt-5">
                     <Container className="p-5">
                     <h1 className="text-center clientTitle pb-5">Client Review</h1>
                 <div>
 
                     <Slider {...settings}>
                         <div>
-                       <Row className="text-center justify-content-center">
+                       <Row className="text-center justify-content-center p-5">
                            <Col lg={6} md={6} sm={12}>
                                 <img className="circularImg" src="/Photo/robin.png" />
                                <h1>Web Development</h1>

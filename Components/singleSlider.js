@@ -3,7 +3,16 @@ import { Button, Col, Modal, ProgressBar, Row } from "react-bootstrap";
 import Image from "next/image";
 import ReactPlayer from "react-player/youtube";
 import Typewriter from "typewriter-effect";
+import Lottie from "lottie-react";
+import play from "/Animation/play 1.json";
 class SingleSlider extends Component {
+
+  style = {
+    
+    width:"80",
+   
+  };
+
   constructor() {
     super();
     this.state = {
@@ -97,7 +106,7 @@ class SingleSlider extends Component {
               <Row>
                 <Col lg={12} md={12} sm={12}>
                   <h1 onClick={this.modalOpen} className="playBtnHeading mt-5">
-                    <i className="playBtn fa-solid fa-circle-play"></i>
+                 <span className="playBtn"><Lottie animationData={play}  loop={true} /></span> 
                   </h1>
                 </Col>
               </Row>

@@ -1,7 +1,14 @@
 import React, {Fragment,Component} from 'react';
 import {Button, Col, Container, FloatingLabel, Form, Row} from "react-bootstrap";
-
+import Lottie from "lottie-react";
+import contact from "/Animation/contact-us.json";
 class Contact extends Component {
+
+    style = {
+        height: 300,
+      };
+
+
     render() {
         return (
 
@@ -43,10 +50,7 @@ class Contact extends Component {
 
                             </Col>
                             <Col className="text-center mt-5" lg={6} md={12} sm={12}>
-                                <h1 className="ServiceName">Discuss Now</h1>
-                                <p className="ServiceDescription">6670, Miapur Hajipara Bongram Bazar Pabna</p>
-                                <p><i className="fa-regular fa-envelope p-1"></i>Engr.rafiul15-2265@diu.edu.bd.com</p>
-                                <p><i className="fa-solid  fa-phone text-success p-1"></i> +880170-1729512</p>
+                            <Lottie animationData={contact} style={this.style} loop={true} />
                             </Col>
                         </Row>
                     </Container>

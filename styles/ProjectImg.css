@@ -6,7 +6,7 @@
 }
 
 .project{
-    background-image: url("http://localhost:3000/Photo/summary.png");
+    background-image: linear-gradient(to bottom, #fffaf9 0%, #fff8fa 100%);
 
     min-height: 500px;
     background-position: center;

@@ -7,7 +7,7 @@ class Summary extends Component {
     render() {
         return (
             <Fragment>
-                <Container fluid={true} className="summaryFixedBanner">
+                <Container fluid={true} className="summaryFixedBanner pt-5 pb-5">
                     <Container>
                         <Row>
                             <Col lg={8} md={6} sm={12}>

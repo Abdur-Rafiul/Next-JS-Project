@@ -8,6 +8,7 @@
 .studyCard:hover{
 
     box-shadow: 0 0 8px 0 rgb(206, 108, 151);
+    border: #C23272!important;
 }
 .studyMainTitle{
     color: #C23272!important;

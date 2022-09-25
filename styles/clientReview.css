@@ -7,7 +7,7 @@
 }
 
 .clientBackground{
-    background-image: url("http://localhost:3000/Photo/backgroundCard.png");
+    background-image: linear-gradient(to bottom, #fffaf9 0%, #fff8fa 100%);
     min-height: 100%;
     background-position: center;
     background-repeat: no-repeat;

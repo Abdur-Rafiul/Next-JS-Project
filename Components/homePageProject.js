@@ -2,8 +2,14 @@ import React, {Component, Fragment} from 'react';
 import {Col, Container, Row} from "react-bootstrap";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Lottie from "lottie-react";
+import project from "/Animation/project.json";
 
 class homePageProject extends Component {
+
+    style = {
+        height: 300,
+      };
 
     componentDidMount() {
         // or simply just AOS.init();
@@ -20,9 +26,11 @@ class homePageProject extends Component {
 
                 <Container className="project pt-5 pb-5" fluid={true}>
                     <Container className="project1">
+                    
 
                         <Row>
                             <h2 className="studyMainTitle text-center">Recent Projects</h2>
+                            <Lottie animationData={project} style={this.style} loop={true} />
                             <Col lg={4} md={6} sm={12}>
                                 <div className="serviceCard mt-3" data-aos="flip-right">
                                     <img className="ProjectImg" src="/Photo/diu.png"/>
