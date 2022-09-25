@@ -1,5 +1,5 @@
 .studyCard{
-    height: 95%!important;
+    height: 85%!important;
    margin: 5px 5px 5px 5px;
     height: 30rem;
     padding: 60px 30px 60px 30px;
@@ -33,6 +33,13 @@
     font-family: "Roboto Condensed";
     font-size: 50px;
     font-weight: 400;
+}
+
+.study-img{
+ width: 100%!important;
+ height: 300px!important;
+ padding: 0px;
+
 }
 .educationBackground{
     background-image: url("http://localhost:3000/Photo/backgroundCard.png");

@@ -3,8 +3,14 @@ import {Button, Card, Col, Container, Row} from "react-bootstrap";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+import Lottie from "lottie-react";
+import Reading from "/Animation/reading.json";
 
 class MyStudy extends Component {
+
+     style = {
+        height: 500,
+      };
 
     componentDidMount() {
         // or simply just AOS.init();
@@ -16,16 +22,27 @@ class MyStudy extends Component {
     }
     render() {
         return (
-            <Container fluid={true} className="educationBackground">
+            <Container fluid={true} className="educationBackground p-sm-4">
                 <Container>
+               
                 <Row>
                     <h2 className="studyMainTitle text-center">Education</h2>
-                    <Col lg={4} md={6} sm={12}>
+                    
+                    <Col lg={12} md={12} sm={12} xs={12}>
+                    <Row className='d-flex justify-content-center'>
+                    <Col lg={8} md={8} sm={12} xs={12}>
+                    <Lottie animationData={Reading} style={this.style} loop={true} />
+                    </Col>
+                    </Row>
+                  
+                    </Col>
+                    <Row className="mt-5">
+                    <Col lg={4} md={6} sm={12} >
 
-                        <Card className="studyCard"  data-aos="fade-up"
+                        <Card className="studyCard"
                               data-aos-offset="200">
                             <h3 className="title text-center">Madrasha</h3>
-                            <Card.Img width="100%" variant="top" src="/Photo/madrash.jpg" />
+                            <Card.Img className='study-img' variant="top" src="/Photo/madrash.jpg" />
                             <Card.Body>
                                 <Card.Title><span className="studyTitle">Miapur Dakhil Madrasha</span></Card.Title>
                                 <Card.Text>
@@ -33,16 +50,15 @@ class MyStudy extends Component {
                                     I feel blessed to have studied at Miyapur Dakhil Madrasa. When I think of Madrasa, I remember that childhood.
                                     </span>
                                 </Card.Text>
-                                <div className="m-5"></div>
-                                <a href='https://goo.gl/maps/Rdvpq398DrBcqtZr8'><Button className="btn-lg mt-5" variant="danger">Location of Madrasah</Button></a>
+                               
                             </Card.Body>
                         </Card>
                     </Col>
 
                     <Col lg={4} md={6} sm={12}>
-                        <Card className="studyCard" data-aos="fade-down">
+                        <Card className="studyCard">
                             <h3 className="title text-center">HSC</h3>
-                            <Card.Img width="100%" variant="top" src="/Photo/college.jpg" />
+                            <Card.Img className='study-img' variant="top" src="/Photo/college.jpg" />
                             <Card.Body>
                                 <Card.Title><span className="studyTitle">Miapur Haji Jasimuddin High School & College</span></Card.Title>
                                 <Card.Text>
@@ -50,15 +66,14 @@ class MyStudy extends Component {
                                     I feel blessed to have studied at Miapur Haji Jasimuddin High School & College. When I think of Madrasa, I remember that childhood.
                                     </span>
                                 </Card.Text>
-                                <a href='https://goo.gl/maps/ZEXya9G7kv9Qb4oB7'><Button className="btn-lg mt-4" variant="danger">Location of College</Button></a>
                             </Card.Body>
                         </Card>
                     </Col>
 
                     <Col lg={4} md={6} sm={12}>
-                        <Card className="studyCard" data-aos="fade-up">
+                        <Card className="studyCard">
                             <h3 className="title text-center">University</h3>
-                            <Card.Img width="100%" variant="top" src="/Photo/daffodil.jpg" />
+                            <Card.Img className='study-img' variant="top" src="/Photo/daffodil.jpg" />
                             <Card.Body>
                                 <Card.Title><span className="studyTitle">Daffodil International University</span></Card.Title>
                                 <Card.Text>
@@ -66,11 +81,11 @@ class MyStudy extends Component {
                                    I completed my graduation from Computer Department in Daffodil International University. Having a lot of fun at Daffodil University
                                     </span>
                                 </Card.Text>
-                                <div className="m-5"></div>
-                                <a  href='https://goo.gl/maps/f6kX2g147DZwjqMP8'><Button className="btn-lg mt-5" variant="danger">Location of University</Button></a>
+                               
                             </Card.Body>
                         </Card>
                     </Col>
+                    </Row>
                 </Row>
                 </Container>
 
