@@ -11,7 +11,7 @@ import Lottie from "lottie-react";
 import contact from "/Animation/contact-us.json";
 class Contact extends Component {
   style = {
-    width: 600,
+    width: "400",
   };
 
   render() {
