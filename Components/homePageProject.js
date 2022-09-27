@@ -29,7 +29,7 @@ class homePageProject extends Component {
                           
                             <Col lg={4} md={6} sm={12}>
                                 <div className="serviceCard mt-3" data-aos="flip-right">
-                                    <img className="ProjectImg" src="/Photo/diu.png"/>
+                                    <img className="ProjectImg" src="/Photo/diu.png" alt='image'/>
                                     <h2 className="ServiceName mt-3">Online Hall Management System For Diu Students</h2>
                                     <p className="ServiceDescription mt-2 text-justify">
                                         I am Building this Website with Laravel Framework and PHP MYSQL also Material Design Bootstrap 5

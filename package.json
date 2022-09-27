@@ -5,9 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "NODE_ENV=production node server.js",
     "lint": "next lint"
   },
+  
   "dependencies": {
     "aos": "^2.3.4",
     "bootstrap": "^5.2.0",
@@ -22,6 +23,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "react-player": "^2.10.1",
+    "react-router-dom": "^6.4.1",
     "react-scroll-to-top": "^3.0.0",
     "react-slick": "^0.29.0",
     "react-visibility-sensor": "^5.1.1",
@@ -30,6 +32,10 @@
     "styled-components": "^5.3.5",
     "typewriter-effect": "^2.19.0",
     "video-react": "^0.15.0"
+  },
+  "overrides": {
+    "react": "^18.1.0",
+    "react-dom": "^18.2.0"  
   },
   "devDependencies": {
     "eslint": "8.23.0",
