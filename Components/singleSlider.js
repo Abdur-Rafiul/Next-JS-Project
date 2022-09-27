@@ -106,7 +106,7 @@ class SingleSlider extends Component {
               <Row>
                 <Col lg={12} md={12} sm={12}>
                   <h1 onClick={this.modalOpen} className="playBtnHeading mt-5">
-                 <span className="playBtn"><Lottie animationData={play}  loop={true} /></span> 
+                 <span className="playBtn p-0"><Lottie animationData={play}  loop={true} /></span> 
                   </h1>
                 </Col>
               </Row>

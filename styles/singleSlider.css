@@ -36,11 +36,9 @@
 }
 
 .playBtn{
-    font-size: 100px;
-    color: #ffffff;
-    text-align: center!important;
-    background-color: rgba(0, 68, 255, 0.864);
-    border-radius: 60px;
+    font-size: 1px;
+    padding: 0!important;
+    margin: 40px!important;
 }
 .playBtnHeading{
     text-align: center;
